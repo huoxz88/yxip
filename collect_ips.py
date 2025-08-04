@@ -27,7 +27,7 @@ with open('ip.txt', 'w') as file:
         # 根据网站的不同结构找到包含IP地址的元素
         if url == 'https://api.uouin.com/cloudflare.html':
             elements = soup.find_all('tr')
-        elif url == 'https://ip.164746.xyz':
+        elif url == 'https://cf.090227.xyz/':
             elements = soup.find_all('tr')
         else:
             elements = soup.find_all('li')
